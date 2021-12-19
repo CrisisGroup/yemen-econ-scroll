@@ -14,9 +14,9 @@ var config = {
             id: '00',
             alignment: 'left',
             hidden: false,
-            title: 'Introduction',
+            title: 'Yemen’s Place in the World',
             image: '',
-            description: '[Global geographical context goes here.]',
+            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea.',
             location: {
               center: [43.592, 15.871],
               zoom: 4,
@@ -29,14 +29,14 @@ var config = {
             onChapterEnter: [
               {
                   layer: 'yemen',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 1
               }
             ],
             onChapterExit: [
               {
                   layer: 'yemen',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 0
               }
           ]
@@ -47,7 +47,7 @@ var config = {
             hidden: false,
             title: '2015',
             image: '',
-            description: '2015 Control',
+            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -60,14 +60,14 @@ var config = {
             onChapterEnter: [
               {
                   layer: '03-2015-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 1
               }
             ],
             onChapterExit: [
               {
                   layer: '03-2015-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 0
               }
           ]
@@ -78,7 +78,7 @@ var config = {
             hidden: false,
             title: '2016',
             image: '',
-            description: '2016 Control',
+            description: 'The war nominally pits the Huthis, who receive some support from Iran, against the Saudi-backed internationally recognised government of Abed Rabbo Mansour Hadi.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -91,14 +91,14 @@ var config = {
             onChapterEnter: [
               {
                   layer: '12-2016-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 1
               }
             ],
             onChapterExit: [
               {
                   layer: '12-2016-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 0
               }
           ]
@@ -109,7 +109,7 @@ var config = {
             hidden: false,
             title: '2018',
             image: '',
-            description: '2018 Control',
+            description: 'But in reality, the numerous anti-forces on the ground have battled both the rebels and each other, including forces loyal to the Hadi government.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -122,14 +122,14 @@ var config = {
             onChapterEnter: [
               {
                   layer: '06-2018-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 1
               }
             ],
             onChapterExit: [
               {
                   layer: '06-2018-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 0
               }
           ]
@@ -140,7 +140,7 @@ var config = {
             hidden: false,
             title: '2020',
             image: '',
-            description: '2020 Control',
+            description: 'By 2020, the country had been split into roughly five zones of political and military control.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -153,14 +153,14 @@ var config = {
             onChapterEnter: [
               {
                   layer: '03-2020-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 1
               }
             ],
             onChapterExit: [
               {
                   layer: '03-2020-ctrl',
-                  duration: 3000,
+                  duration: 2000,
                   opacity: 0
               }
           ]
@@ -171,7 +171,7 @@ var config = {
             hidden: false,
             title: 'The Present Day',
             image: '',
-            description: 'By November 2021, the country was split into roughly five zones of political and military control.',
+            description: 'The fighting has cut off roads and divided control of Yemen’s ports and airports, many of which have been shuttered.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -186,40 +186,46 @@ var config = {
                   layer: 'satellite',
                   duration: 3000,
                   opacity: 0
+              },
+              {
+                  layer: '2021-control',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: '2021-control-roads',
+                  duration: 3000,
+                  opacity: 1
+              },
+              {
+                  layer: '2021-points',
+                  duration: 3000,
+                  opacity: 1
               }
             ],
             onChapterExit: [
-
-          ]
-        },
-        {
-            id: '01F',
-            alignment: 'left',
-            hidden: false,
-            title: 'The Hadi Government',
-            image: '',
-            description: 'Although government of President Abed Rabbo Mansour Hadi says it controls the parts of Yemen not held by the Huthi rebels in the north. Legally, the government remains Yemen’s internationally recognized authority.',
-            location: {
-              center: [45.731866, 15.500622],
-              zoom: 5.30,
-              pitch: 0,
-              bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-
-            ],
-            onChapterExit: [
-
+              {
+                  layer: '2021-control',
+                  duration: 3000,
+                  opacity: 0
+              },
+              {
+                  layer: '2021-control-roads',
+                  duration: 3000,
+                  opacity: 0
+              },
+              {
+                  layer: '2021-points',
+                  duration: 3000,
+                  opacity: 0
+              }
           ]
         },
         {
             id: '02A',
             alignment: 'center',
             hidden: false,
-            title: 'The Start of Economic Warfare',
+            title: 'At First, A Unified Economy',
             image: '',
             description: 'In the war’s early years these territorial divisions did not extend to the economy, which remained largely unified.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136"></div>',
             location: {
@@ -288,7 +294,7 @@ var config = {
             id: '02C',
             alignment: 'center',
             hidden: false,
-            title: 'An Economic Conflict',
+            title: 'The Economic War',
             image: '',
             description: 'What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools. <strong><u>It is also, increasingly, an economic conflict.</u></strong> One that may have cost as many lives as frontline fighting.',
             location: {
@@ -311,7 +317,7 @@ var config = {
             id: '03A',
             alignment: 'left',
             hidden: false,
-            title: 'Phases of Economic Warfare',
+            title: '',
             image: '',
             description: 'The economic conflict has unfolded over several different phases. First, in 2016, after peace talks in Kuwait collapsed, the government moved the headquarters of Yemen’s central bank from Huthi-held Sanaa to its temporary capital in Aden. The government thought this would give it an economic advantage over the Huthis, who it accused of looting the bank’s reserves of Yemeni riyals and hard currencies like the dollar. [Control map data forthcoming...]',
             location: {
@@ -570,7 +576,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">These economic conflicts for contol of fuel and money supply have combined to deepen Yemen’s economic and humanitarian disaster. And they have backfired on the government</h2>',
+            description: '<h2 class="liftout">These economic conflicts for control of fuel and money supply have combined to deepen Yemen’s economic and humanitarian disaster. And they have backfired on the government</h2>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -660,7 +666,7 @@ var config = {
             id: '05D',
             alignment: 'center',
             hidden: false,
-            title: 'A comparative look',
+            title: 'Huthi income',
             image: '',
             description: 'There is another reason. The Huthis appear to be pushing fuel prices up in their areas to replace lost income from blocked fuel shipments and even increase their revenues while the government takes the blame.',
             location: {
@@ -685,7 +691,7 @@ var config = {
      hidden: false,
      title: '',
      image: '',
-     description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite indreasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.',
+     description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite indreasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory that has become increasingly busy since 2018.',
      location: {
        center: [44.781, 16.191],
        zoom: 15.85,
@@ -715,7 +721,7 @@ var config = {
      id: '06',
      alignment: 'center',
      hidden: false,
-     title: 'Conclusions',
+     title: 'Protests',
      image: '',
      description: 'The currency crisis along with fuel and electricity shortages have led to protests in most big cities under the government’s nominal control.',
      location: {

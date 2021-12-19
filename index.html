@@ -282,12 +282,34 @@
 
 	<div id="map"></div>
 
-	<div id='Chapter00legend' class='legend'>
+	<div id='Chapter01Alegend' class='legend'>
 	<h4>Areas of Control</h4>
 	<ul class='legend-ul'>
-	<li><div><span style='background-color: #fdfc9a'></span>Low (0 – 1) </div></li>
+	<li><div><span style='background-color: #cd2323'></span>Huthis and allies </div></li>
+	<li><div><span style='background-color: #e4c253'></span>GOY and allies </div></li>
+	<li><div><span style='background-color: #7b0e24'></span>Southern Resistance </div></li>
 	</ul>
-	<h5><strong>Data</strong>: <a href='https://www.wri.org/aqueduct' target='_blank'>ACLED</a></h5>
+	</div>
+
+	<div id='Chapter01Blegend' class='legend'>
+	<h4>Areas of Control</h4>
+	<ul class='legend-ul'>
+	<li><div><span style='background-color: #cd2323'></span>Huthis and allies </div></li>
+	<li><div><span style='background-color: #e4c253'></span>GOY and allies </div></li>
+	<li><div><span style='background-color: #7b0e24'></span>Southern Resistance </div></li>
+	<li><div><span style='background-color: #c253e4'></span>Hadramawt EF and allies </div></li>
+	</ul>
+	</div>
+
+	<div id='Chapter01CDlegend' class='legend'>
+	<h4>Areas of Control</h4>
+	<ul class='legend-ul'>
+	<li><div><span style='background-color: #cd2323'></span>Huthis and allies </div></li>
+	<li><div><span style='background-color: #e4c253'></span>GOY and allies </div></li>
+	<li><div><span style='background-color: #7b0e24'></span>STC and allies </div></li>
+	<li><div><span style='background-color: #c253e4'></span>Hadramawt EF and allies </div></li>
+	<li><div><span style='background-color: #5d51d6'></span>Joint Resistance Forces and allies </div></li>
+	</ul>
 	</div>
 
 	<div id="story"></div>
@@ -477,14 +499,21 @@ map.on("load", function() {
 				var chapter = config.chapters.find(chap => chap.id === response.element.id);
 				var chapterid = chapter.id;
 
-				if (chapterid == "QUOTE") {
-					$("#jsshow").show("slow");
-				}
 
-				if ((chapterid == "00") || (chapterid == "00A")) {
-				     $("#Chapter00legend").show("slow");
+				if (chapterid == "01A") {
+				     $("#Chapter01Alegend").show("slow");
 				} else
-						 $("#Chapter00legend").hide("fast");
+						 $("#Chapter01Alegend").hide("fast");
+
+						 if (chapterid == "01B") {
+									$("#Chapter01Blegend").show("slow");
+						 } else
+									$("#Chapter01Blegend").hide("fast");
+
+									if  ((chapterid == "01C") || (chapterid == "01D")) {
+											 $("#Chapter01CDlegend").show("slow");
+									} else
+											 $("#Chapter01CDlegend").hide("fast");
 
 				response.element.classList.add('active');
 				map[chapter.mapAnimation || 'flyTo'](chapter.location);
