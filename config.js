@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckxp6vvno0ebn14m58uyfh2v7',
+    style: 'mapbox://styles/daltonwb/ckxt0tqk01wm315p8a65o5k0s',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -473,29 +473,39 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida. [probably needs a geotiff or just a marker point in this part of the sea]',
+            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.',
             location: {
-              center: [40.8282835, 16.5160884],
-              zoom: 8,
-              pitch: 36,
+              center: [49.431930, 15.136481],
+              zoom: 4.9,
+              pitch: 18.53,
               bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
-              layer: 'satellite',
+              layer: 'hodeida-ship',
               duration: 3000,
-              opacity: 1
-              }
+              opacity: .8
+            },
+            {
+            layer: 'hodeida-ship-label',
+            duration: 3000,
+            opacity: .8
+          }
             ],
             onChapterExit: [
               {
-              layer: 'satellite',
+              layer: 'hodeida-ship',
               duration: 3000,
               opacity: 0
-              }
+            },
+            {
+            layer: 'hodeida-ship-label',
+            duration: 3000,
+            opacity: 0
+          }
           ]
         },
         {
