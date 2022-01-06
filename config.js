@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cky2dx2uo0pqc14o9jeqa2nj6',
+    style: 'mapbox://styles/daltonwb/cky3h89l31wj114qjbc29zbt4',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -66,7 +66,7 @@ var config = {
               {
                   layer: '2015-acled',
                   duration: 2000,
-                  opacity: .7
+                  opacity: .6
               }
             ],
             onChapterExit: [
@@ -107,7 +107,7 @@ var config = {
               {
                   layer: '2016-acled',
                   duration: 2000,
-                  opacity: .7
+                  opacity: .6
               }
             ],
             onChapterExit: [
@@ -148,7 +148,7 @@ var config = {
               {
                   layer: '2018-acled',
                   duration: 2000,
-                  opacity: .7
+                  opacity: .6
               }
             ],
             onChapterExit: [
@@ -189,7 +189,7 @@ var config = {
               {
                   layer: '2020-acled',
                   duration: 2000,
-                  opacity: .7
+                  opacity: .6
               }
             ],
             onChapterExit: [
@@ -373,7 +373,7 @@ var config = {
               {
                   layer: '12-2016-ctrl',
                   duration: 2000,
-                  opacity: 1
+                  opacity: .8
               },
               {
                   layer: 'city-2016-text',
@@ -393,7 +393,7 @@ var config = {
               {
                   layer: '2016-acled',
                   duration: 2000,
-                  opacity: .7
+                  opacity: .6
               }
             ],
             onChapterExit: [
@@ -484,16 +484,16 @@ var config = {
         },
         {
           id: '03D',
-          alignment: 'left',
+          alignment: 'center',
           hidden: false,
           title: 'Ceasefire in Stockholm',
           image: 'images/stockholm.jpeg',
           description: 'For the same reason that the UAE saw it as important, the UN worried that a battle for Hodeida would disrupt imports so badly that it would cause a “massive famine”. So in December 2018 it negotiated a deal, the Stockholm Agreement, to prevent a battle and demilitarize the area. (Image: Government of Sweden)',
           location: {
-            center: [44.703737, 15.172698],
-            zoom: 5.5,
-            pitch: 0,
-            bearing: 0
+            center: [42.933885, 14.835810],
+            zoom: 8,
+            pitch: 46.60,
+            bearing: 16.80
           },
           mapAnimation: 'flyTo',
           rotateAnimation: false,
@@ -536,9 +536,9 @@ var config = {
             image: '',
             description: 'The government introduced a series of new laws to make it harder for importers to bring goods into Yemen through Hodeida, and to force  them to use the Aden central bank to transfer money in and out of the country. The government appeared to be using its legal status to do what the coalition had been prevented from doing militarily – cutting off Huthi income from Hodeida and increasing its own.',
             location: {
-              center: [44.703737, 15.172698],
-              zoom: 5.5,
-              pitch: 0,
+              center: [55.649546, 16.346035],
+              zoom: 3.95,
+              pitch: 9.62,
               bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -546,13 +546,22 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-              layer: 'satellite',
-              duration: 3000,
-              opacity: 0
+                layer: 'satellite',
+                duration: 3000,
+                opacity: 0
+              },
+              {
+                layer: 'hodeida-cruise',
+                duration: 3000,
+                opacity: 1
               }
             ],
             onChapterExit: [
-
+              {
+                layer: 'hodeida-cruise',
+                duration: 3000,
+                opacity: 0
+              }
           ]
         },
         {
@@ -598,48 +607,30 @@ var config = {
         },
         {
             id: '04D',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: '',
             image: '',
             description: 'In response, the Huthis banned new Yemeni riyal bills the government had been printing since 2016 to pay salaries and other expenses. The government had more than doubled the total supply of money in Yemen. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606"></div>',
             location: {
-              center: [45.601893, 17.712406],
-              zoom: 5.5,
-              pitch: 55,
-              bearing: 7.26
+              center: [49.431930, 15.136481],
+              zoom: 4.9,
+              pitch: 18.53,
+              bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-              {
-                  layer: 'yemen',
-                  duration: 3000,
-                  opacity: 1
-              },
-              {
-                  layer: 'saudi',
-                  duration: 3000,
-                  opacity: 1
-              }
+
             ],
             onChapterExit: [
-              {
-                  layer: 'yemen',
-                  duration: 3000,
-                  opacity: 0
-              },
-              {
-                  layer: 'saudi',
-                  duration: 3000,
-                  opacity: 0
-              }
+
           ]
         },
         {
             id: '04E',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '',
             image: '',
@@ -651,13 +642,13 @@ var config = {
               bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
                   layer: 'cartogram-yemen',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .65
               }
             ],
             onChapterExit: [
@@ -688,7 +679,7 @@ var config = {
               {
                   layer: 'currency_2017',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .7
               }
             ],
             onChapterExit: [
@@ -719,7 +710,7 @@ var config = {
               {
                   layer: 'currency_2021',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .7
               }
             ],
             onChapterExit: [
@@ -741,7 +732,8 @@ var config = {
               center: [44.703737, 15.172698],
               zoom: 5.5,
               pitch: 0,
-              bearing: 0
+              bearing: 0,
+              speed: .7
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
