@@ -346,6 +346,13 @@
 	</ul>
 	</div>
 
+	<div id='Chapter04Clegend' class='legend'>
+<h4>Days at location as reported by AIS</h4>
+<ul class='legend-ul'>
+<li><div><span style='background-color: #cd2323; border: solid 1px #fff; border-radius: 100px; width: 30px; height: 30px;'></span><span style='vertical-align: top; padding-right: 10px;'></span></div></li>
+</ul>
+</div>
+
 	<div id="story"></div>
 
 <script src="./config.js"></script>
@@ -553,6 +560,12 @@ map.on("load", function() {
 														$("#Chapter01Elegend").show("slow");
 											 } else
 														$("#Chapter01Elegend").hide("fast");
+
+														if (chapterid == "04C") {
+		 														$("#Chapter04Clegend").show("slow");
+		 											 } else
+		 														$("#Chapter04Clegend").hide("fast");
+
 
 				response.element.classList.add('active');
 				map[chapter.mapAnimation || 'flyTo'](chapter.location);
