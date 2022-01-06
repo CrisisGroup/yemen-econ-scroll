@@ -61,7 +61,7 @@ var config = {
               {
                   layer: '03-2015-ctrl',
                   duration: 2000,
-                  opacity: 1
+                  opacity: .8
               },
               {
                   layer: '2015-acled',
@@ -102,7 +102,7 @@ var config = {
               {
                   layer: '12-2016-ctrl',
                   duration: 2000,
-                  opacity: 1
+                  opacity: .8
               },
               {
                   layer: '2016-acled',
@@ -143,7 +143,7 @@ var config = {
               {
                   layer: '06-2018-ctrl',
                   duration: 2000,
-                  opacity: 1
+                  opacity: .8
               },
               {
                   layer: '2018-acled',
@@ -184,7 +184,7 @@ var config = {
               {
                   layer: '03-2020-ctrl',
                   duration: 2000,
-                  opacity: 1
+                  opacity: .8
               },
               {
                   layer: '2020-acled',
@@ -230,17 +230,17 @@ var config = {
               {
                   layer: '2021-control',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .8
               },
               {
                   layer: '2021-control-roads',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .9
               },
               {
                   layer: '2021-points',
                   duration: 3000,
-                  opacity: 1
+                  opacity: .9
               }
             ],
             onChapterExit: [
@@ -374,11 +374,51 @@ var config = {
                   layer: '12-2016-ctrl',
                   duration: 2000,
                   opacity: 1
+              },
+              {
+                  layer: 'city-2016-text',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'city-2016-blur',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'city-2016-dot',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: '2016-acled',
+                  duration: 2000,
+                  opacity: .7
               }
             ],
             onChapterExit: [
               {
                   layer: '12-2016-ctrl',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'city-2016-text',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'city-2016-blur',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'city-2016-dot',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: '2016-acled',
                   duration: 2000,
                   opacity: 0
               }
@@ -605,6 +645,37 @@ var config = {
             image: '',
             description: 'Most of Yemen’s population lives in Huthi areas. By banning the new notes, the Huthis effectively flooded rival territories with the new notes the government had printed. The riyal began to tumble against the dollar in non-Huthi areas.',
             location: {
+              center: [46.990774, 14.931359],
+              zoom: 6.05,
+              pitch: 9.6,
+              bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+              {
+                  layer: 'cartogram-yemen',
+                  duration: 3000,
+                  opacity: 1
+              }
+            ],
+            onChapterExit: [
+              {
+                  layer: 'cartogram-yemen',
+                  duration: 3000,
+                  opacity: 0
+              }
+          ]
+        },
+        {
+            id: '04F',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Currency valuation 2017 [need text]',
+            location: {
               center: [45.924454, 14.650321],
               zoom: 6.2,
               pitch: 60,
@@ -629,7 +700,7 @@ var config = {
           ]
         },
         {
-            id: '04F',
+            id: '04G',
             alignment: 'left',
             hidden: false,
             title: '',
@@ -803,7 +874,16 @@ var config = {
        }
      ],
      onChapterExit: [
-
+       {
+           layer: 'satellite',
+           duration: 3000,
+           opacity: 0
+       },
+       {
+           layer: 'truck-depot',
+           duration: 3000,
+           opacity: 0
+       }
    ]
  },
  {
@@ -832,6 +912,11 @@ var config = {
            layer: 'yemen-cities-dot',
            duration: 3000,
            opacity: 1
+       },
+       {
+           layer: 'yemen-cities-dot-blur',
+           duration: 3000,
+           opacity: 1
        }
      ],
      onChapterExit: [
@@ -842,6 +927,11 @@ var config = {
        },
        {
            layer: 'yemen-cities-dot',
+           duration: 3000,
+           opacity: 0
+       },
+       {
+           layer: 'yemen-cities-dot-blur',
            duration: 3000,
            opacity: 0
        }
