@@ -312,6 +312,24 @@
 	</ul>
 	</div>
 
+	<div id='Chapter01Elegend' class='legend'>
+	<h4>Areas of Control</h4>
+	<ul class='legend-ul'>
+	<li><div><span style='background-color: #cd2323'></span>Huthis and allies </div></li>
+	<li><div><span style='background-color: #e4c253'></span>GOY and allies </div></li>
+	<li><div><span style='background-color: #7b0e24'></span>STC and allies </div></li>
+	<li><div><span style='background-color: #c253e4'></span>Hadramawt EF and allies </div></li>
+	<li><div><span style='background-color: #5d51d6'></span>Joint Resistance Forces and allies </div></li>
+	<li><div><span style='background-color: #22a91e'></span>Flashpoint </div></li>
+	</ul>
+	<br />
+	<ul class='legend-ul'>
+<li><div><img src='images/icons/harbor.png'</div> Harbors</li>
+<li><div><img src='images/icons/dry_port.png'</div> Dry ports</li>
+<li><div><img src='images/icons/city.png'</div> Major city</li>
+	</ul>
+	</div>
+
 	<div id="story"></div>
 
 <script src="./config.js"></script>
@@ -514,6 +532,11 @@ map.on("load", function() {
 											 $("#Chapter01CDlegend").show("slow");
 									} else
 											 $("#Chapter01CDlegend").hide("fast");
+
+											 if (chapterid == "01E") {
+														$("#Chapter01Elegend").show("slow");
+											 } else
+														$("#Chapter01Elegend").hide("fast");
 
 				response.element.classList.add('active');
 				map[chapter.mapAnimation || 'flyTo'](chapter.location);

@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/ckxt0tqk01wm315p8a65o5k0s',
+    style: 'mapbox://styles/daltonwb/cky2dx2uo0pqc14o9jeqa2nj6',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -62,11 +62,21 @@ var config = {
                   layer: '03-2015-ctrl',
                   duration: 2000,
                   opacity: 1
+              },
+              {
+                  layer: '2015-acled',
+                  duration: 2000,
+                  opacity: .7
               }
             ],
             onChapterExit: [
               {
                   layer: '03-2015-ctrl',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: '2015-acled',
                   duration: 2000,
                   opacity: 0
               }
@@ -93,11 +103,21 @@ var config = {
                   layer: '12-2016-ctrl',
                   duration: 2000,
                   opacity: 1
+              },
+              {
+                  layer: '2016-acled',
+                  duration: 2000,
+                  opacity: .7
               }
             ],
             onChapterExit: [
               {
                   layer: '12-2016-ctrl',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: '2016-acled',
                   duration: 2000,
                   opacity: 0
               }
@@ -124,11 +144,21 @@ var config = {
                   layer: '06-2018-ctrl',
                   duration: 2000,
                   opacity: 1
+              },
+              {
+                  layer: '2018-acled',
+                  duration: 2000,
+                  opacity: .7
               }
             ],
             onChapterExit: [
               {
                   layer: '06-2018-ctrl',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: '2018-acled',
                   duration: 2000,
                   opacity: 0
               }
@@ -155,11 +185,21 @@ var config = {
                   layer: '03-2020-ctrl',
                   duration: 2000,
                   opacity: 1
+              },
+              {
+                  layer: '2020-acled',
+                  duration: 2000,
+                  opacity: .7
               }
             ],
             onChapterExit: [
               {
                   layer: '03-2020-ctrl',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: '2020-acled',
                   duration: 2000,
                   opacity: 0
               }
@@ -227,7 +267,7 @@ var config = {
             hidden: false,
             title: 'At First, A Unified Economy',
             image: '',
-            description: 'In the war’s early years these territorial divisions did not extend to the economy, which remained largely unified.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136"></div>',
+            description: 'In the war’s early years these territorial divisions did not extend to the economy, which remained largely unified. Wheat prices, for example, remained largely the same wherever you were.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -296,7 +336,7 @@ var config = {
             hidden: false,
             title: 'The Economic War',
             image: '',
-            description: 'What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools. <strong><u>It is also, increasingly, an economic conflict.</u></strong> One that may have cost as many lives as frontline fighting.',
+            description: 'What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools. <strong><u>It is also, increasingly, an economic conflict.</u></strong> One that may has likely cost as many lives as frontline fighting.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -319,7 +359,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The economic conflict has unfolded over several different phases. First, in 2016, after peace talks in Kuwait collapsed, the government moved the headquarters of Yemen’s central bank from Huthi-held Sanaa to its temporary capital in Aden. The government thought this would give it an economic advantage over the Huthis, who it accused of looting the bank’s reserves of Yemeni riyals and hard currencies like the dollar. [Control map data forthcoming...]',
+            description: 'The economic conflict has unfolded over several different phases. First, in 2016, after peace talks in Kuwait collapsed, the government moved the headquarters of Yemen’s central bank from Huthi-held Sanaa to its temporary capital in Aden. The government thought this would give it an economic advantage over the Huthis, who it accused of looting the bank’s reserves of Yemeni riyals and hard currencies like the dollar.',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -330,10 +370,18 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+              {
+                  layer: '12-2016-ctrl',
+                  duration: 2000,
+                  opacity: 1
+              }
             ],
             onChapterExit: [
-
+              {
+                  layer: '12-2016-ctrl',
+                  duration: 2000,
+                  opacity: 0
+              }
           ]
         },
         {
@@ -473,7 +521,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.',
+            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.<br /><br /><em>(AIS data provided courtesy of exactEarth Ltd)</em>',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
@@ -514,7 +562,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'In response, the Huthis banned new Yemeni riyal bills the government had been printing since 2016 to pay salaries and other expenses. The government had more than doubled the total supply of money in Yemen. The Huthis said the new bills were driving inflation and making the economic crisis worse.',
+            description: 'In response, the Huthis banned new Yemeni riyal bills the government had been printing since 2016 to pay salaries and other expenses. The government had more than doubled the total supply of money in Yemen. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606"></div>',
             location: {
               center: [45.601893, 17.712406],
               zoom: 5.5,
@@ -567,14 +615,45 @@ var config = {
             callback: '',
             onChapterEnter: [
               {
-                  layer: 'cartogram-yemen',
+                  layer: 'currency_2017',
                   duration: 3000,
                   opacity: 1
               }
             ],
             onChapterExit: [
               {
-                  layer: 'cartogram-yemen',
+                  layer: 'currency_2017',
+                  duration: 3000,
+                  opacity: 0
+              }
+          ]
+        },
+        {
+            id: '04F',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '2021 currency valuations, powerful transition!',
+            location: {
+              center: [46.190097, 15.067067],
+              zoom: 6.1,
+              pitch: 66,
+              bearing: 104.04
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+              {
+                  layer: 'currency_2021',
+                  duration: 3000,
+                  opacity: 1
+              }
+            ],
+            onChapterExit: [
+              {
+                  layer: 'currency_2021',
                   duration: 3000,
                   opacity: 0
               }
@@ -605,11 +684,11 @@ var config = {
         },
         {
             id: '05A',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Doubling of food prices',
             image: '',
-            description: 'In government-controlled areas especially, the cost of basic goods has risen so much that the normal food basket an average household purchases has doubled since January 2020. [WFP chart]',
+            description: 'In government-controlled areas especially, the cost of basic goods has risen so much that the normal food basket an average household purchases has doubled since January 2020. <div class="flourish-embed flourish-chart" data-src="visualisation/8311840"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -729,7 +808,7 @@ var config = {
  },
  {
      id: '06',
-     alignment: 'center',
+     alignment: 'left',
      hidden: false,
      title: 'Protests',
      image: '',
@@ -744,10 +823,28 @@ var config = {
      rotateAnimation: false,
      callback: '',
      onChapterEnter: [
-
+       {
+           layer: 'yemen-cities',
+           duration: 3000,
+           opacity: 1
+       },
+       {
+           layer: 'yemen-cities-dot',
+           duration: 3000,
+           opacity: 1
+       }
      ],
      onChapterExit: [
-
+       {
+           layer: 'yemen-cities',
+           duration: 3000,
+           opacity: 0
+       },
+       {
+           layer: 'yemen-cities-dot',
+           duration: 3000,
+           opacity: 0
+       }
    ]
         },
         {
