@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cky3h89l31wj114qjbc29zbt4',
+    style: 'mapbox://styles/daltonwb/cky3j39qn1ych14qj5417y5bu',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
