@@ -661,19 +661,19 @@ var config = {
         },
         {
             id: '04F',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Currency valuation in 2017',
             image: '',
             description: 'By banning the new notes, the Huthis effectively flooded less populous rival territories with the new notes the government had printed. The riyal began to tumble against the dollar in non-Huthi areas. This map shows the cost of one dollar in riyals in Huthi and non-Huthi areas in 2017.',
             location: {
-              center: [45.924454, 14.650321],
-              zoom: 6.2,
-              pitch: 60,
-              bearing: 0
+              center: [47.803856, 13.992635],
+              zoom: 6,
+              pitch: 58,
+              bearing: 20
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
               {
@@ -692,16 +692,16 @@ var config = {
         },
         {
             id: '04G',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: 'Valuation by the end of 2021',
             image: '',
             description: 'As this map shows, by December 2021 the cost of one dollar in nominally government areas far oustripped the exchange rate in Huthi-controlled areas, where it remained relatively stable.',
             location: {
-              center: [46.190097, 15.067067],
-              zoom: 6.1,
-              pitch: 66,
-              bearing: 104.04
+              center: [47.803856, 13.992635],
+              zoom: 6,
+              pitch: 58,
+              bearing: 20
             },
             mapAnimation: 'flyTo',
             rotateAnimation: true,
