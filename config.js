@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cky53q1gk3xj214qjwgd64i6h',
+    style: 'mapbox://styles/daltonwb/cky55fpis3iwn15qsp623xdww',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -845,9 +845,9 @@ var config = {
      image: '',
      description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite increasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory that has become increasingly busy since 2018.',
      location: {
-       center: [44.781, 16.191],
-       zoom: 15.85,
-       pitch: 36.00,
+       center: [44.782512, 16.189763],
+       zoom: 17,
+       pitch: 36,
        bearing: 0
      },
      mapAnimation: 'flyTo',
@@ -863,6 +863,11 @@ var config = {
            layer: 'truck-depot-2022',
            duration: 3000,
            opacity: 1
+       },
+       {
+           layer: 'truck-highlights',
+           duration: 6000,
+           opacity: .7
        }
      ],
      onChapterExit: [
@@ -873,6 +878,11 @@ var config = {
        },
        {
            layer: 'truck-depot-2022',
+           duration: 3000,
+           opacity: 0
+       },
+       {
+           layer: 'truck-highlights',
            duration: 3000,
            opacity: 0
        }
