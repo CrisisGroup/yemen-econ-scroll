@@ -14,7 +14,7 @@ var config = {
             id: '00',
             alignment: 'left',
             hidden: false,
-            title: 'Yemen’s Place in the World',
+            title: 'Yemen',
             image: '',
             description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea.',
             location: {
@@ -47,7 +47,7 @@ var config = {
             hidden: false,
             title: '2015',
             image: '',
-            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa.',
+            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa. This map shows shifts in district level control and the major sites of violent conflict across Yemen from 2015 onwards. Crisis Group compiled the control map while the violence heat map uses data gathered by ACLED, The Armed Conflict Location & Event Data Project',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -129,7 +129,7 @@ var config = {
             hidden: false,
             title: '2018',
             image: '',
-            description: 'But in reality, the numerous anti-forces on the ground have battled both the rebels and each other, including forces loyal to the Hadi government.',
+            description: 'But in reality, the numerous anti-Huthi forces on the ground have battled both the rebels and each other, including forces loyal to the Hadi government.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -336,7 +336,7 @@ var config = {
             hidden: false,
             title: 'The Economic War',
             image: '',
-            description: 'What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools. <strong><u>It is also, increasingly, an economic conflict.</u></strong> One that may has likely cost as many lives as frontline fighting.',
+            description: 'What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools. <strong><u>It is also, increasingly, an economic conflict.</u></strong> One that has cost as many if not more lives than frontline fighting.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -457,7 +457,7 @@ var config = {
           hidden: false,
           title: '',
           image: '',
-          description: 'The UAE saw Hodeida as important because the Huthis earned a lot of money by taxing goods entering the port. At the time, half of Yemen’s food and fuel imports entered the country via Hodeida.',
+          description: 'Like Riyadh, Abu Dhabi argued that the Huthis were smuggling arms into Yemen via Hodeida. The UAE also saw Hodeida as important because the Huthis earned a lot of money by taxing goods entering the port. At the time, half of Yemen’s food and fuel imports entered the country via Hodeida.',
           location: {
             center: [42.933885, 14.835810],
             zoom: 16.17,
@@ -488,7 +488,7 @@ var config = {
           hidden: false,
           title: 'Ceasefire in Stockholm',
           image: 'images/stockholm.jpeg',
-          description: 'For the same reason that the UAE saw it as important, the UN worried that a battle for Hodeida would disrupt imports so badly that it would cause a “massive famine”. So in December 2018 it negotiated a deal, the Stockholm Agreement, to prevent a battle and demilitarize the area. (Image: Government of Sweden)',
+          description: '<p class="footnote">(Image: Government of Sweden)</p>For the same reason that the UAE saw it as important, the UN worried that a battle for Hodeida would disrupt imports so badly that it would cause a “massive famine”. So in December 2018 it negotiated a deal, the Stockholm Agreement, to prevent a battle and demilitarize the area.',
           location: {
             center: [42.933885, 14.835810],
             zoom: 8,
@@ -634,7 +634,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Most of Yemen’s population lives in Huthi areas. By banning the new notes, the Huthis effectively flooded rival territories with the new notes the government had printed. The riyal began to tumble against the dollar in non-Huthi areas.',
+            description: 'Most of Yemen’s population lives in Huthi areas.This map shows the concentration of Yemen’s population and who controls the districts they live in. The overwhelming majority of Yemenis – probably more than 20 million people – live in Huthi areas.',
             location: {
               center: [46.990774, 14.931359],
               zoom: 6.05,
@@ -663,9 +663,9 @@ var config = {
             id: '04F',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: 'Currency valuation in 2017',
             image: '',
-            description: 'Currency valuation 2017 [need text]',
+            description: 'By banning the new notes, the Huthis effectively flooded less populous rival territories with the new notes the government had printed. The riyal began to tumble against the dollar in non-Huthi areas. This map shows the cost of one dollar in riyals in Huthi and non-Huthi areas in 2017.',
             location: {
               center: [45.924454, 14.650321],
               zoom: 6.2,
@@ -694,9 +694,9 @@ var config = {
             id: '04G',
             alignment: 'left',
             hidden: false,
-            title: '',
+            title: 'Valuation by the end of 2021',
             image: '',
-            description: '2021 currency valuations, powerful transition!',
+            description: 'As this map shows, by December 2021 the cost of one dollar in nominally government areas far oustripped the exchange rate in Huthi-controlled areas, where it remained relatively stable.',
             location: {
               center: [46.190097, 15.067067],
               zoom: 6.1,
@@ -843,7 +843,7 @@ var config = {
      hidden: false,
      title: '',
      image: '',
-     description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite indreasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory that has become increasingly busy since 2018.',
+     description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite increasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory that has become increasingly busy since 2018.',
      location: {
        center: [44.781, 16.191],
        zoom: 15.85,
@@ -860,7 +860,7 @@ var config = {
            opacity: 1
        },
        {
-           layer: 'truck-depot',
+           layer: 'truck-depot-2022',
            duration: 3000,
            opacity: 1
        }
@@ -872,7 +872,7 @@ var config = {
            opacity: 0
        },
        {
-           layer: 'truck-depot',
+           layer: 'truck-depot-2022',
            duration: 3000,
            opacity: 0
        }
@@ -884,7 +884,7 @@ var config = {
      hidden: false,
      title: 'Protests',
      image: '',
-     description: 'The currency crisis along with fuel and electricity shortages have led to protests in most big cities under the government’s nominal control.',
+     description: 'The currency crisis along with fuel and electricity shortages have led to protests in most big cities under the government’s nominal control. Taiz, Aden, Ataq and Mukalla were all rocked by protests in 2021.',
      location: {
        center: [44.703737, 15.172698],
        zoom: 5.5,
@@ -935,7 +935,7 @@ var config = {
             hidden: false,
             title: 'So what can be done?',
             image: '',
-            description: 'In a new Crisis Group report we argue that the new UN envoy doesn’t just need to broker a military truce and a political settlement. They also need an economic ceasefire.<br /><br /> To learn more about the economic conflict and what an economic ceasefire would look like, read our new report, "Brokering a Ceasefire in Yemen’s Economic Conflict"',
+            description: 'Hans Grundberg, the new UN envoy to Yemen, doesn’t just need to broker a military truce and a political settlement. He also needs an economic ceasefire.<br /><br />To learn more about the economic conflict and what an economic ceasefire would look like, read Crisis Group‘s new report, "Brokering a Ceasefire in Yemen’s Economic Conflict"',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
