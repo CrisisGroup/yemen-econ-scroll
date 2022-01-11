@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Yemen',
             image: '',
-            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea.',
+            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia and Oman, along with the shipping lanes of the Red Sea and Gulf of Aden.',
             location: {
               center: [43.592, 15.871],
               zoom: 4,
@@ -47,7 +47,7 @@ var config = {
             hidden: false,
             title: '2015',
             image: '',
-            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa. This map shows shifts in district level control and the major sites of violent conflict across Yemen from 2015 onwards. Crisis Group compiled the control map while the violence heat map uses data gathered by ACLED, The Armed Conflict Location & Event Data Project',
+            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa.<br /><br />This map shows shifts in district level control and the major sites of violent conflict across Yemen from 2015 onwards. Crisis Group compiled the control map while the violence heat map uses data gathered by ACLED, The Armed Conflict Location & Event Data Project',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -332,11 +332,11 @@ var config = {
         },
         {
             id: '02C',
-            alignment: 'center',
+            alignment: 'full',
             hidden: false,
-            title: 'The Economic War',
+            title: '',
             image: '',
-            description: 'What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools. <strong><u>It is also, increasingly, an economic conflict.</u></strong> One that has cost as many if not more lives than frontline fighting.',
+            description: '<h2 class="liftout">What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools.<br /><br /><strong><u>It is also, increasingly, an economic conflict.</u></strong> One that has cost as many if not more lives than frontline fighting.</h2>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -522,7 +522,11 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-
+              {
+                layer: 'hodeida-cruise',
+                duration: 3000,
+                opacity: 0
+              }
             ],
             onChapterExit: [
 
@@ -557,11 +561,6 @@ var config = {
               }
             ],
             onChapterExit: [
-              {
-                layer: 'hodeida-cruise',
-                duration: 3000,
-                opacity: 0
-              }
           ]
         },
         {
@@ -570,7 +569,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.<br /><br /><em>(AIS data provided courtesy of exactEarth Ltd)</em>',
+            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.<br /><br /><p class="footnote">(AIS data provided courtesy of exactEarth Ltd)</p>',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
