@@ -601,6 +601,11 @@ var config = {
             layer: 'hodeida-ship-label',
             duration: 3000,
             opacity: 0
+          },
+          {
+            layer: 'hodeida-cruise',
+            duration: 3000,
+            opacity: 0
           }
           ]
         },
