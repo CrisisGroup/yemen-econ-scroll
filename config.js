@@ -8,7 +8,7 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Yemen’s Economic War</h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Data Analysis: </strong>Kevin Mazur<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Support</strong>: Veena Ali-Khan<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>, September, 2021<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">European Space Agency</a>. 2017. Land Cover CCI Product User Guide Version 2.<br /><a href="https://www.gadm.org" target="_blank">GADM</a>. 2012. “Database of Global Administrative Areas”.<br />Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” <a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">World Resources Institute</a>.<br />Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “<a href="https://acleddata.com/data-export-tool/" target="_blank">Introducing ACLED Armed Conflict Location and Event Data</a>.” Journal of Peace Research 47(5):651-660.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Data Analysis: </strong>Kevin Mazur<br /><strong>Support</strong>: Veena Ali-Khan<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>, September, 2021<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">European Space Agency</a>. 2017. Land Cover CCI Product User Guide Version 2.<br /><a href="https://www.gadm.org" target="_blank">GADM</a>. 2012. “Database of Global Administrative Areas”.<br />Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” <a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">World Resources Institute</a>.<br />Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “<a href="https://acleddata.com/data-export-tool/" target="_blank">Introducing ACLED Armed Conflict Location and Event Data</a>.” Journal of Peace Research 47(5):651-660.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
     chapters: [
         {
             id: '00',
@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Yemen',
             image: '',
-            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia and Oman, along with the shipping lanes of the Red Sea and Gulf of Aden.',
+            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea and Gulf of Aden.',
             location: {
               center: [43.592, 15.871],
               zoom: 4,
@@ -47,7 +47,7 @@ var config = {
             hidden: false,
             title: '2015',
             image: '',
-            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa.<br /><br />This map shows shifts in district level control and the major sites of violent conflict across Yemen from 2015 onwards.',
+            description: 'Yemen has been at war since early 2015 when the Huthi rebels and their allies attempted to take over the country, and a Saudi-led military intervention tried and failed to displace them from the capital, Sanaa.<br /><br />This map shows shifts in district level control and the major sites of violent conflict across Yemen from 2015 onwards. ',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -88,7 +88,7 @@ var config = {
             hidden: false,
             title: '2016',
             image: '',
-            description: 'The war nominally pits the Huthis, who receive some support from Iran, against the Saudi-backed internationally recognised government of Abed Rabbo Mansour Hadi.',
+            description: 'The war nominally pits the Huthis, who receive support from Iran, against the Saudi-backed internationally recognised government of Abed Rabbo Mansour Hadi.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -129,7 +129,7 @@ var config = {
             hidden: false,
             title: '2018',
             image: '',
-            description: 'But in reality, the numerous anti-Huthi forces on the ground have battled both the rebels and each other, including forces loyal to the Hadi government.',
+            description: 'In reality, the numerous anti-Huthi forces on the ground have battled both the rebels and each other.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -170,7 +170,7 @@ var config = {
             hidden: false,
             title: '2020',
             image: '',
-            description: 'By 2020, the country had been split into roughly five zones of political and military control.',
+            description: 'By 2020, the country had been split into roughly five zones of political and military control. The Huthis control north west Yemen, the country’s most populous area, and in particular Sanaa, its historical political and commercial centre.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -267,7 +267,7 @@ var config = {
             hidden: false,
             title: 'At First, A Unified Economy',
             image: '',
-            description: 'In the war’s early years these territorial divisions did not extend to the economy, which remained largely unified. Wheat prices, for example, remained largely the same wherever you were.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136"></div>',
+            description: 'In the war’s early years these territorial divisions did not extend to the economy, which remained mostly unified. Wheat prices, for example, remained largely the same across the country.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -290,7 +290,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">But since early 2020 that has changed. Food prices are now much higher in nominally government-controlled areas than Huthi-controlled ones.</h2>',
+            description: '<h2 class="liftout">But the situation has changed since early 2020. Yemen is now divided into two broad economic zones, one controlled by the Huthis and the other in nominally government-controlled areas.</h2>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -313,7 +313,7 @@ var config = {
             hidden: false,
             title: 'Economic Split',
             image: '',
-            description: 'Wheat prices have increased by more than 50 per cent in government areas since 2019. Most Yemeni salaries are not adjusted for inflation, so a price increase like this essentially halves people’s purchasing power.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176"></div>',
+            description: 'Wheat prices have more than doubled in government areas since 2019. Most Yemeni salaries are not adjusted for inflation, so a price increase like this essentially halves people’s purchasing power.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -336,7 +336,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">What caused this economic split? The answer is that Yemen’s civil war is not just being fought using military and political tools.<br /><br /><strong><u>It is also, increasingly, an economic conflict.</u></strong> One that has cost as many if not more lives than frontline fighting.</h2>',
+            description: '<h2 class="liftout">Why did the economy split? The answer is that Yemen’s civil war is not just a military and political fight.<br /><br /><strong><u>It is also an economic conflict</u></strong>– one that has probably cost more lives than frontline fighting.</h2>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -359,7 +359,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The economic conflict has unfolded over several different phases. First, in 2016, after peace talks in Kuwait collapsed, the government moved the headquarters of Yemen’s central bank from Huthi-held Sanaa to its temporary capital in Aden. The government thought this would give it an economic advantage over the Huthis, who it accused of looting the bank’s reserves of Yemeni riyals and hard currencies like the dollar.',
+            description: 'The economic conflict has unfolded over several different phases. First, in 2016, after peace talks in Kuwait collapsed, the government moved the headquarters of Yemen’s central bank from Huthi-held Sanaa to its temporary capital in Aden.<br /><br />The government thought this would give it an economic advantage over the Huthis, who it accused of looting the bank’s reserves of Yemeni riyals and hard currencies like the dollar, and who more importantly controlled the flow of money in and out of the country via the banking system.',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -430,7 +430,7 @@ var config = {
             hidden: false,
             title: 'Phases of Economic Warfare',
             image: '',
-            description: 'Then, in 2018, UAE-backed forces mounted a military campaign to seize the Huthi controlled Red Sea port of Hodeida.',
+            description: 'Then, in 2018, UAE-backed forces mounted a military campaign to seize the Huthi-controlled Red Sea port of Hodeida.',
             location: {
               center: [42.948151, 14.789725],
               zoom: 10.62,
@@ -488,7 +488,7 @@ var config = {
           hidden: false,
           title: 'Ceasefire in Stockholm',
           image: 'images/stockholm.jpeg',
-          description: 'For the same reason that the UAE saw it as important, the UN worried that a battle for Hodeida would disrupt imports so badly that it would cause a “massive famine”. So in December 2018 it negotiated a deal, the Stockholm Agreement, to prevent a battle and demilitarize the area.<p class="footnote">(Image: Government of Sweden)</p>',
+          description: 'But the UN worried that a battle for Hodeida would badly disrupt imports, causing a “massive famine”. So in December 2018 the UN mediated a deal, the Stockholm Agreement, to prevent a battle and demilitarise the area.<p class="footnote">(Image: Government of Sweden)</p>',
           location: {
             center: [42.933885, 14.835810],
             zoom: 8,
@@ -511,7 +511,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">The Stockholm Agreement stopped the fighting in Hodeida. But didn’t end the war.<br /><br /> Frontline fighting continued and the economic conflict escalated.</h2>',
+            description: '<h2 class="liftout">The Stockholm Agreement stopped the fighting in Hodeida. But it didn’t end the war.<br /><br /> Frontline fighting continued and the economic conflict escalated.</h2>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -538,7 +538,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The government introduced a series of new laws to make it harder for importers to bring goods into Yemen through Hodeida, and to force  them to use the Aden central bank to transfer money in and out of the country. The government appeared to be using its legal status to do what the coalition had been prevented from doing militarily – cutting off Huthi income from Hodeida and increasing its own.',
+            description: 'The government introduced a series of new laws to make it harder for importers to bring goods into Yemen through Hodeida, and to force  them to use the Aden central bank to transfer money in and out of the country.<br /><br />The government appeared to be using its legal status to do what the coalition had been prevented from doing militarily – cutting off Huthi income from Hodeida and increasing its own, as more trade flowed through ports under its nominal control, and that billions of dollars of remittances were transferred through its banks.',
             location: {
               center: [55.649546, 16.346035],
               zoom: 3.95,
@@ -569,7 +569,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.',
+            description: 'In 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida. This shows the journey of one fuel shipment to Hodeida in 2019. The dotted line shows the ship’s route, and the circles show the number of days it was anchored at different locations along the way. The ship was held in a Saudi-overseen holding area for almost 60 days before being given permission to enter Hodeida.',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
@@ -615,7 +615,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'In response, the Huthis banned new Yemeni riyal bills the government had been printing since 2016 to pay salaries and other expenses. The government had more than doubled the total supply of money in Yemen. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606"></div>',
+            description: 'In response, the Huthis banned new Yemeni riyal bills the government had been printing since 2017 to pay salaries and other expenses. The government more than doubled Yemen’s money supply. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606"></div>',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
@@ -638,7 +638,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Most of Yemen’s population lives in Huthi areas. This map shows the concentration of Yemen’s population and who controls the districts they live in. The overwhelming majority of Yemenis – probably more than 20 million people – live in Huthi areas.',
+            description: 'This map shows the concentration of Yemen’s population and who controls the districts they live in. The overwhelming majority of Yemenis – probably more than 20 million people – live in Huthi areas.',
             location: {
               center: [46.990774, 14.931359],
               zoom: 6.05,
@@ -669,7 +669,7 @@ var config = {
             hidden: false,
             title: 'Currency valuation in 2017',
             image: '',
-            description: 'By banning the new notes, the Huthis effectively flooded less populous rival territories with the new notes the government had printed. The riyal began to tumble against the dollar in non-Huthi areas. This map shows the cost of one dollar in riyals in Huthi and non-Huthi areas in 2017.',
+            description: 'By banning the new notes, the Huthis effectively flooded less populous rival territories with the new notes the government had printed. The riyal began to tumble against the dollar in non-Huthi areas. This map shows the riyal-dollar exchange rate in different parts of Yemen in 2017, when it was more or less uniform across the country.',
             location: {
               center: [47.803856, 13.992635],
               zoom: 6,
@@ -700,7 +700,7 @@ var config = {
             hidden: false,
             title: 'Valuation by the end of 2021',
             image: '',
-            description: 'As this map shows, by December 2021 the cost of one dollar in nominally government areas far oustripped the exchange rate in Huthi-controlled areas, where it remained relatively stable.',
+            description: 'As this map shows, by June 2021 the cost of one dollar in nominally government-controlled areas far oustripped the exchange rate in Huthi-controlled areas, where it remained relatively stable.',
             location: {
               center: [47.803856, 13.992635],
               zoom: 6,
@@ -731,7 +731,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">These economic conflicts for control of fuel and money supply have combined to deepen Yemen’s economic and humanitarian disaster. And they have backfired on the government</h2>',
+            description: '<h2 class="liftout">These economic conflicts for control of fuel and money supply have combined to deepen Yemen’s economic and humanitarian disaster and deepen the country’s political divides. <u>And they have backfired on the government.</u></h2>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -755,7 +755,7 @@ var config = {
             hidden: false,
             title: 'Doubling of food prices',
             image: '',
-            description: 'In government-controlled areas especially, the cost of basic goods has risen so much that the normal food basket an average household purchases has doubled since January 2020. <div class="flourish-embed flourish-chart" data-src="visualisation/8311840"></div>',
+            description: 'In government-controlled areas especially, the cost of basic goods has risen so much that the normal food basket an average household purchases has doubled in price since January 2020. <div class="flourish-embed flourish-chart" data-src="visualisation/8311840"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -778,7 +778,7 @@ var config = {
             hidden: false,
             title: 'A comparative look',
             image: '',
-            description: 'This increase can mainly be explained by the riyal’s depreciation.<div class="flourish-embed flourish-chart" data-src="visualisation/7978910"></div>',
+            description: 'This increase can mainly be explained by the riyal’s depreciation in government areas. <div class="flourish-embed flourish-chart" data-src="visualisation/7978910"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -801,7 +801,7 @@ var config = {
             hidden: false,
             title: 'A comparative look',
             image: '',
-            description: 'Fuel prices have also risen in both Huthi and non-Huthi areas. This price increase is in part due to the government-Saudi decision fuel embargo on Hodeida since January 2021, and also because of the depreciating riyal in non-Huthi areas.<div class="flourish-embed flourish-chart" data-src="visualisation/7979000"></div>',
+            description: 'Fuel prices have also risen in both Huthi and non-Huthi areas. This price increase is in part due to a government-Saudi fuel embargo on Hodeida since January 2021 and higher prices on global markets. It is also caused by the depreciating riyal in non-Huthi areas. <div class="flourish-embed flourish-chart" data-src="visualisation/7979000"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -847,7 +847,7 @@ var config = {
      hidden: false,
      title: '',
      image: '',
-     description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite increasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory that has become increasingly busy since 2018.<p class="footnote">(©CNES 2021, Distribution AIRBUSDS)</p>',
+     description: 'Higher fuel prices in Huthi-held areas also help explain why there are growing shortages in government-controlled areas, despite a rise in fuel imports into government-controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government-held territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory. It has become increasingly busy since 2018. <p class="footnote">(©CNES 2021, Distribution AIRBUSDS)</p>',
      location: {
        center: [44.782512, 16.189763],
        zoom: 17,
@@ -949,7 +949,7 @@ var config = {
             hidden: false,
             title: 'So what can be done?',
             image: '',
-            description: 'Hans Grundberg, the new UN envoy to Yemen, doesn’t just need to broker a military truce and a political settlement. He also needs an economic ceasefire.<br /><br />To learn more about the economic conflict and what an economic ceasefire would look like, read Crisis Group‘s new report, "Brokering a Ceasefire in Yemen’s Economic Conflict"',
+            description: 'Hans Grundberg, the new UN envoy to Yemen, doesn’t just need to broker a military truce and a political settlement. He also needs to effect an economic ceasefire.<br /><br />To learn more about the economic conflict and what an economic ceasefire would look like, read Crisis Group‘s new report, "Brokering a Ceasefire in Yemen’s Economic Conflict"',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
