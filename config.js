@@ -8,7 +8,7 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Yemen’s Economic War</h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Support: </strong>Kevin Mazur<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>, September, 2021<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">European Space Agency</a>. 2017. Land Cover CCI Product User Guide Version 2.<br /><a href="https://www.gadm.org" target="_blank">GADM</a>. 2012. “Database of Global Administrative Areas”.<br />Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” <a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">World Resources Institute</a>.<br />Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “<a href="https://acleddata.com/data-export-tool/" target="_blank">Introducing ACLED Armed Conflict Location and Event Data</a>.” Journal of Peace Research 47(5):651-660.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Data Analysis: </strong>Kevin Mazur<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Support</strong>: Veena Ali-Khan<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>, September, 2021<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">European Space Agency</a>. 2017. Land Cover CCI Product User Guide Version 2.<br /><a href="https://www.gadm.org" target="_blank">GADM</a>. 2012. “Database of Global Administrative Areas”.<br />Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” <a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">World Resources Institute</a>.<br />Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “<a href="https://acleddata.com/data-export-tool/" target="_blank">Introducing ACLED Armed Conflict Location and Event Data</a>.” Journal of Peace Research 47(5):651-660.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
     chapters: [
         {
             id: '00',
@@ -47,7 +47,7 @@ var config = {
             hidden: false,
             title: '2015',
             image: '',
-            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa.<br /><br />This map shows shifts in district level control and the major sites of violent conflict across Yemen from 2015 onwards. Crisis Group compiled the control map while the violence heat map uses data gathered by ACLED, The Armed Conflict Location & Event Data Project',
+            description: 'Yemen has been at war since early 2015 when Huthi rebels and their allies attempted to take over the entire country and a Saudi-led military intervention sought to displace them from the capital, Sanaa.<br /><br />This map shows shifts in district level control and the major sites of violent conflict across Yemen from 2015 onwards.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -311,7 +311,7 @@ var config = {
             id: '02B',
             alignment: 'center',
             hidden: false,
-            title: 'The Start of Economic Warfare',
+            title: 'Economic Split',
             image: '',
             description: 'Wheat prices have increased by more than 50 per cent in government areas since 2019. Most Yemeni salaries are not adjusted for inflation, so a price increase like this essentially halves people’s purchasing power.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176"></div>',
             location: {
@@ -488,7 +488,7 @@ var config = {
           hidden: false,
           title: 'Ceasefire in Stockholm',
           image: 'images/stockholm.jpeg',
-          description: '<p class="footnote">(Image: Government of Sweden)</p>For the same reason that the UAE saw it as important, the UN worried that a battle for Hodeida would disrupt imports so badly that it would cause a “massive famine”. So in December 2018 it negotiated a deal, the Stockholm Agreement, to prevent a battle and demilitarize the area.',
+          description: 'For the same reason that the UAE saw it as important, the UN worried that a battle for Hodeida would disrupt imports so badly that it would cause a “massive famine”. So in December 2018 it negotiated a deal, the Stockholm Agreement, to prevent a battle and demilitarize the area.<p class="footnote">(Image: Government of Sweden)</p>',
           location: {
             center: [42.933885, 14.835810],
             zoom: 8,
@@ -569,7 +569,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.<br /><br /><p class="footnote">(AIS data provided courtesy of exactEarth Ltd)</p>',
+            description: 'Then, in 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida.',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
@@ -638,7 +638,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Most of Yemen’s population lives in Huthi areas.This map shows the concentration of Yemen’s population and who controls the districts they live in. The overwhelming majority of Yemenis – probably more than 20 million people – live in Huthi areas.',
+            description: 'Most of Yemen’s population lives in Huthi areas. This map shows the concentration of Yemen’s population and who controls the districts they live in. The overwhelming majority of Yemenis – probably more than 20 million people – live in Huthi areas.',
             location: {
               center: [46.990774, 14.931359],
               zoom: 6.05,
@@ -847,7 +847,7 @@ var config = {
      hidden: false,
      title: '',
      image: '',
-     description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite increasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory that has become increasingly busy since 2018.',
+     description: 'Higher fuel prices in Huthi areas also help explains mounting shortages in government controlled areas, despite increasing fuel imports into government controlled ports. Traders can make more money by transporting fuel into Huthi-controlled areas than by selling it in government territory and risk losing money because of the inflation crisis there.<br /><br />This satellite image shows a holding area for fuel trucks entering Huthi-controlled territory that has become increasingly busy since 2018.<p class="footnote">(©CNES 2021, Distribution AIRBUSDS)</p>',
      location: {
        center: [44.782512, 16.189763],
        zoom: 17,
