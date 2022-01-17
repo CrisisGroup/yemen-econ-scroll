@@ -8,7 +8,7 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Yemen’s Economic War</h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Data Analysis: </strong>Kevin Mazur<br /><strong>Support</strong>: Veena Ali-Khan<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.crisisgroup.org/crisiswatch" target="_blank">CrisisWatch</a>, September, 2021<br /><a href="http://www.esa-landcover-cci.org/?q=node/164" target="_blank">European Space Agency</a>. 2017. Land Cover CCI Product User Guide Version 2.<br /><a href="https://www.gadm.org" target="_blank">GADM</a>. 2012. “Database of Global Administrative Areas”.<br />Luck, M., M. Landis, and F. Gassert. 2015. “Aqueduct Water Stress Projections: Decadal Projections of Water Supply and Demand using CMIP5 GCMs.” <a href="https://www.wri.org/applications/aqueduct/water-risk-atlas/#/?advanced=false&basemap=hydro&indicator=w_awr_def_tot_cat&lat=-14.445396942837744&lng=-142.85354599620152&mapMode=view&month=1&opacity=0.5&ponderation=DEF&predefined=false&projection=absolute&scenario=optimistic&scope=baseline&timeScale=annual&year=baseline&zoom=2" target="_blank">World Resources Institute</a>.<br />Raleigh, C., A. Linke, H. Hegre and J. Karlsen. 2010. “<a href="https://acleddata.com/data-export-tool/" target="_blank">Introducing ACLED Armed Conflict Location and Event Data</a>.” Journal of Peace Research 47(5):651-660.<br /><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Data Analysis: </strong>Kevin Mazur<br /><strong>Support</strong>: Veena Ali-Khan<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
     chapters: [
         {
             id: '00',
@@ -538,7 +538,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The government introduced a series of new laws to make it harder for importers to bring goods into Yemen through Hodeida, and to force  them to use the Aden central bank to transfer money in and out of the country.<br /><br />The government appeared to be using its legal status to do what the coalition had been prevented from doing militarily – cutting off Huthi income from Hodeida and increasing its own, as more trade flowed through ports under its nominal control, and that billions of dollars of remittances were transferred through its banks.',
+            description: 'The government introduced a series of new laws to make it harder for importers to bring goods into Yemen through Hodeida, and to force  them to use the Aden central bank to transfer money in and out of the country.<br /><br />TThe government appeared to be using its legal status to do what the coalition had been prevented from doing militarily – cutting off Huthi income from Hodeida and increasing its own, as more trade flowed through ports under its nominal control.',
             location: {
               center: [55.649546, 16.346035],
               zoom: 3.95,
@@ -569,7 +569,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'In 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida. This shows the journey of one fuel shipment to Hodeida in 2019. The dotted line shows the ship’s route, and the circles show the number of days it was anchored at different locations along the way. The ship was held in a Saudi-overseen holding area for almost 60 days before being given permission to enter Hodeida.',
+            description: 'In 2019, with Saudi Arabia’s help, the government started delaying approvals for fuel imports into Hodeida. This map shows the journey of one fuel shipment to Hodeida in 2019. The dotted line shows the ship’s route, and the circles show the number of days it was anchored at different locations along the way. The ship was held in a Saudi-overseen holding area for almost 60 days before being given permission to enter Hodeida.',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
@@ -615,7 +615,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'In response, the Huthis banned new Yemeni riyal bills the government had been printing since 2017 to pay salaries and other expenses. The government more than doubled Yemen’s money supply. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606"></div>',
+            description: 'In response, at the end of 2019 the Huthis banned new Yemeni riyal bills the government had been printing since 2017 to pay salaries and other expenses. The government more than doubled Yemen’s money supply. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606"></div>',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
@@ -824,7 +824,7 @@ var config = {
             hidden: false,
             title: 'Huthi income',
             image: '',
-            description: 'There is another reason. The Huthis appear to be pushing fuel prices up in their areas to replace lost income from blocked fuel shipments and even increase their revenues while the government takes the blame.',
+            description: 'There is another reason. Rivals accuse the Huthis of pushing fuel prices up in their areas to replace lost income from blocked fuel shipments and even increase their revenues while the government takes the blame.',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
