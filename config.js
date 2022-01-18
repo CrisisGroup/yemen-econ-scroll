@@ -538,7 +538,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The government introduced a series of new laws to make it harder for importers to bring goods into Yemen through Hodeida, and to force  them to use the Aden central bank to transfer money in and out of the country.<br /><br />TThe government appeared to be using its legal status to do what the coalition had been prevented from doing militarily – cutting off Huthi income from Hodeida and increasing its own, as more trade flowed through ports under its nominal control.',
+            description: 'The government introduced a series of new laws to make it harder for importers to bring goods into Yemen through Hodeida, and to force  them to use the Aden central bank to transfer money in and out of the country.<br /><br />The government appeared to be using its legal status to do what the coalition had been prevented from doing militarily – cutting off Huthi income from Hodeida and increasing its own, as more trade flowed through ports under its nominal control.',
             location: {
               center: [55.649546, 16.346035],
               zoom: 3.95,
