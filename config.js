@@ -290,7 +290,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">But the situation has changed since early 2020. Yemen is now divided into two broad economic zones, one controlled by the Huthis and the other in nominally government-controlled areas.</h2>',
+            description: '<h2 class="liftout">But the situation has changed since early 2020. Yemen is now divided into two broad economic zones, one controlled by the Huthis and the other extending across nominally government-controlled areas.</h2>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -313,7 +313,7 @@ var config = {
             hidden: false,
             title: 'Economic Split',
             image: '',
-            description: 'Wheat prices have more than doubled in government areas since 2019. Most Yemeni salaries are not adjusted for inflation, so a price increase like this essentially halves people’s purchasing power.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176"></div>',
+            description: 'Wheat prices have more than doubled in government areas since 2019. Most Yemeni salaries are not adjusted for inflation, so the price essentially halves people’s purchasing power.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -336,7 +336,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">Why did the economy split? The answer is that Yemen’s civil war is not just a military and political fight.<br /><br /><strong><u>It is also an economic conflict</u></strong>– one that has probably cost more lives than frontline fighting.</h2>',
+            description: '<h2 class="liftout">Why did the economy split? The answer is that Yemen’s civil war is not just a military and political fight.<br /><br /><strong><u>It is also an economic conflict</u></strong>– one that has probably cost more lives than has frontline fighting.</h2>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -359,7 +359,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The economic conflict has unfolded over several different phases. First, in 2016, after peace talks in Kuwait collapsed, the government moved the headquarters of Yemen’s central bank from Huthi-held Sanaa to its temporary capital in Aden.<br /><br />The government thought this would give it an economic advantage over the Huthis, who it accused of looting the bank’s reserves of Yemeni riyals and hard currencies like the dollar, and who more importantly controlled the flow of money in and out of the country via the banking system.',
+            description: 'The economic conflict has unfolded over several different phases. First, in 2016, after peace talks in Kuwait collapsed, the government moved the headquarters of Yemen’s central bank from Huthi-held Sanaa to its temporary capital in Aden.<br /><br />The government thought this would give it an economic advantage over the Huthis. It sought to deny them access to the bank’s reserves of Yemeni riyals and hard currencies like the dollar, and, more importantly, to reassert control over the flow of money in and out of the country via the banking system.',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
