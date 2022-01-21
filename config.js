@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/daltonwb/cky55fpis3iwn15qsp623xdww',
+    style: 'mapbox://styles/daltonwb/ckynsiori00ul14rzli0d2dgq',
     accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw',
     showMarkers: false,
     markerColor: '#3FB1CE',
@@ -31,6 +31,21 @@ var config = {
                   layer: 'yemen',
                   duration: 2000,
                   opacity: 1
+              },
+              {
+                  layer: 'sanaa',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'sanaa-dot',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'sanaa-blur',
+                  duration: 2000,
+                  opacity: 0
               }
             ],
             onChapterExit: [
@@ -67,6 +82,21 @@ var config = {
                   layer: '2015-acled',
                   duration: 2000,
                   opacity: .6
+              },
+              {
+                  layer: 'sanaa',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'sanaa-dot',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'sanaa-blur',
+                  duration: 2000,
+                  opacity: 1
               }
             ],
             onChapterExit: [
@@ -190,6 +220,21 @@ var config = {
                   layer: '2020-acled',
                   duration: 2000,
                   opacity: .6
+              },
+              {
+                  layer: 'sanaa',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'sanaa-dot',
+                  duration: 2000,
+                  opacity: 1
+              },
+              {
+                  layer: 'sanaa-blur',
+                  duration: 2000,
+                  opacity: 1
               }
             ],
             onChapterExit: [
@@ -200,6 +245,21 @@ var config = {
               },
               {
                   layer: '2020-acled',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'sanaa',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'sanaa-dot',
+                  duration: 2000,
+                  opacity: 0
+              },
+              {
+                  layer: 'sanaa-blur',
                   duration: 2000,
                   opacity: 0
               }
@@ -488,7 +548,7 @@ var config = {
           hidden: false,
           title: 'Ceasefire in Stockholm',
           image: 'images/stockholm.jpeg',
-          description: 'But the UN worried that a battle for Hodeida would badly disrupt imports, causing a “massive famine”. So in December 2018 the UN mediated a deal, the Stockholm Agreement, to prevent a battle and demilitarise the area.<p class="footnote">(Image: Government of Sweden)</p>',
+          description: 'But the UN and others worried that a battle for Hodeida would badly disrupt imports, causing a “massive famine", and could devolve into brutal urban warfare. So in December 2018 the UN mediated a deal, the Stockholm Agreement, to prevent a battle and demilitarise the area.<p class="footnote">(Image: Government of Sweden)</p>',
           location: {
             center: [42.933885, 14.835810],
             zoom: 8,
@@ -731,7 +791,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<h2 class="liftout">These economic conflicts for control of fuel and money supply have combined to deepen Yemen’s economic and humanitarian disaster and deepen the country’s political divides. <u>And they have backfired on the government.</u></h2>',
+            description: '<h2 class="liftout">These struggles for control of fuel and currency have combined to deepen Yemen’s economic and humanitarian disaster and deepen the country’s political divides. <u>And they have backfired on the government.</u></h2>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
