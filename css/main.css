@@ -42,6 +42,13 @@
       font-family: 'Libre Franklin', sans-serif;
       letter-spacing: 1px;
     }
+
+    @media (max-width: 600px) {
+    h2.liftout {
+        font-size: 1.8em;
+    }
+}
+
     h3 {
       font-family: 'Libre Franklin', sans-serif;
       font-size: 21px;

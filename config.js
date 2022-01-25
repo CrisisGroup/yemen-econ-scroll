@@ -327,7 +327,7 @@ var config = {
             hidden: false,
             title: 'At First, A Unified Economy',
             image: '',
-            description: 'In the war’s early years these territorial divisions did not extend to the economy, which remained mostly unified. Wheat prices, for example, remained largely the same across the country.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136"></div>',
+            description: 'In the war’s early years these territorial divisions did not extend to the economy, which remained mostly unified. Wheat prices, for example, remained largely the same across the country.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136" style="padding: 0 !important;"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -373,7 +373,7 @@ var config = {
             hidden: false,
             title: 'Economic Split',
             image: '',
-            description: 'Wheat prices have more than doubled in government areas since 2019. Most Yemeni salaries are not adjusted for inflation, so the price essentially halves people’s purchasing power.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176"></div>',
+            description: 'Wheat prices have more than doubled in government areas since 2019. Most Yemeni salaries are not adjusted for inflation, so the price essentially halves people’s purchasing power.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176" style="padding: 0 !important;"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -675,7 +675,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'In response, at the end of 2019 the Huthis banned new Yemeni riyal bills the government had been printing since 2017 to pay salaries and other expenses. The government more than doubled Yemen’s money supply. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606"></div>',
+            description: 'In response, at the end of 2019 the Huthis banned new Yemeni riyal bills the government had been printing since 2017 to pay salaries and other expenses. The government more than doubled Yemen’s money supply. The Huthis said the new bills were driving inflation and making the economic crisis worse.<div class="flourish-embed flourish-chart" data-src="visualisation/8312606" style="padding: 0 !important;"></div>',
             location: {
               center: [49.431930, 15.136481],
               zoom: 4.9,
@@ -815,7 +815,7 @@ var config = {
             hidden: false,
             title: 'Doubling of food prices',
             image: '',
-            description: 'In government-controlled areas especially, the cost of basic goods has risen so much that the normal food basket an average household purchases has doubled in price since January 2020. <div class="flourish-embed flourish-chart" data-src="visualisation/8311840"></div>',
+            description: 'In government-controlled areas especially, the cost of basic goods has risen so much that the normal food basket an average household purchases has doubled in price since January 2020. <div class="flourish-embed flourish-chart" data-src="visualisation/8311840" style="padding: 0 !important;"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -838,7 +838,7 @@ var config = {
             hidden: false,
             title: 'A comparative look',
             image: '',
-            description: 'This increase can mainly be explained by the riyal’s depreciation in government areas. <div class="flourish-embed flourish-chart" data-src="visualisation/7978910"></div>',
+            description: 'This increase can mainly be explained by the riyal’s depreciation in government areas. <div class="flourish-embed flourish-chart" data-src="visualisation/7978910" style="padding: 0 !important;"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -861,7 +861,7 @@ var config = {
             hidden: false,
             title: 'A comparative look',
             image: '',
-            description: 'Fuel prices have also risen in both Huthi and non-Huthi areas. This price increase is in part due to a government-Saudi fuel embargo on Hodeida since January 2021 and higher prices on global markets. It is also caused by the depreciating riyal in non-Huthi areas. <div class="flourish-embed flourish-chart" data-src="visualisation/7979000"></div>',
+            description: 'Fuel prices have also risen in both Huthi and non-Huthi areas. This price increase is in part due to a government-Saudi fuel embargo on Hodeida since January 2021 and higher prices on global markets. It is also caused by the depreciating riyal in non-Huthi areas. <div class="flourish-embed flourish-chart" data-src="visualisation/7979000" style="padding: 0 !important;"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
