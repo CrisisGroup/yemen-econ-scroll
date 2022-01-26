@@ -1005,7 +1005,7 @@ var config = {
         },
         {
             id: '7',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'So what can be done?',
             image: 'images/yemen_end_frame.jpg',
