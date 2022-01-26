@@ -1008,8 +1008,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'So what can be done?',
-            image: '',
-            description: 'Hans Grundberg, the new UN envoy to Yemen, doesn’t just need to broker a military truce and a political settlement. He also needs to effect an economic ceasefire.<br /><br />To learn more about the economic conflict and what an economic ceasefire would look like, read Crisis Group‘s new report, "Brokering a Ceasefire in Yemen’s Economic Conflict"',
+            image: 'images/yemen_end_frame.jpg',
+            description: 'Hans Grundberg, the new UN envoy to Yemen, doesn’t just need to broker a military truce and a political settlement. He also needs to effect an economic ceasefire.<br /><br />To learn more about the economic conflict and what an economic ceasefire would look like, read Crisis Group‘s new report, "<a href="https://www.crisisgroup.org/middle-east-north-africa/gulf-and-arabian-peninsula/yemen/231-brokering-ceasefire-yemens-economic-conflict" target="_blank">Brokering a Ceasefire in Yemen’s Economic Conflict</a>"<p class="footnote">(Image: Yemenis walk past burning tires during protests calling for the removal of the Saudi-backed coalition government and deteriorating economic and living conditions, in Yemen’s third city of Taiz on 27 September 2021. CRISIS GROUP / Ahmad Al-Basha)</p>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
