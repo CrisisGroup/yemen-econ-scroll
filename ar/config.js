@@ -8,7 +8,7 @@ var config = {
     title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="../images/icg-oj.png" width="60" height="60" /></a><br /><h1>الصراع الاقتصادي في اليمن</h1>',
     subtitle: '',
     byline: '',
-    footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Data Analysis: </strong>Kevin Mazur<br /><strong>Support</strong>: Veena Ali-Khan<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    footer: '<h4>أسماء المشاركين</h4>المساهم الرئيسي: بيتر سالزبوري<br />المؤثرات البصرية: بول فرانز<br />تحليل البيانات: كيفين مازور<br />دعم: فينا علي-خان<br /><br /></div><h4 id="footerpara">مصادر البيانات</h4> <div class="data-sources">OpenStreetMap، Mapbox وفريق جماعة Mapbox<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">سياسة الخصوصية والاعتبارات القانونية</a></div>',
     chapters: [
         {
             id: '00',
@@ -327,7 +327,7 @@ var config = {
             hidden: false,
             title: 'في البداية، اقتصاد موحد',
             image: '',
-            description: 'في السنوات الأولى للحرب، لم تمتد هذه الانقسامات لتشمل الاقتصاد، الذي ظل موحداً إلى حد كبير. على سبيل المثال، فقد ظلت أسعار القمح هي نفسها في سائر أنحاء البلاد.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978136" style="padding: 0 !important;"></div>',
+            description: 'في السنوات الأولى للحرب، لم تمتد هذه الانقسامات لتشمل الاقتصاد، الذي ظل موحداً إلى حد كبير. على سبيل المثال، فقد ظلت أسعار القمح هي نفسها في سائر أنحاء البلاد.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/8574224" style="padding: 0 !important;"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -373,7 +373,7 @@ var config = {
             hidden: false,
             title: 'انقسام اقتصادي',
             image: '',
-            description: 'أسعار القمح أكثر من تضاعفت في مناطق الحكومة منذ عام 2019. ورواتب معظم اليمنيين لم تعدَّل لتتناسب مع التضخم، وبالتالي فإن الأسعار تخفض القوة الشرائية للسكان إلى النصف.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/7978176" style="padding: 0 !important;"></div>',
+            description: 'أسعار القمح أكثر من تضاعفت في مناطق الحكومة منذ عام 2019. ورواتب معظم اليمنيين لم تعدَّل لتتناسب مع التضخم، وبالتالي فإن الأسعار تخفض القوة الشرائية للسكان إلى النصف.<br /><br /><div class="flourish-embed flourish-chart" data-src="visualisation/8574264" style="padding: 0 !important;"></div>',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -815,7 +815,7 @@ var config = {
             hidden: false,
             title: 'تضاعف أسعار الأغذية',
             image: '',
-            description: 'في المناطق الواقعة تحت سيطرة الحكومة بوجه خاص، ارتفعت كلفة السلع الأساسية بشكل كبير جداً بحيث ارتفع سعر سلة الغذاء العادية التي تشتريها أسرة متوسطة إلى الضعف منذ كانون الثاني/يناير 2020.<div class="flourish-embed flourish-chart" data-src="visualisation/8311840" style="padding: 0 !important;"></div>',
+            description: 'في المناطق الواقعة تحت سيطرة الحكومة بوجه خاص، ارتفعت كلفة السلع الأساسية بشكل كبير جداً بحيث ارتفع سعر سلة الغذاء العادية التي تشتريها أسرة متوسطة إلى الضعف منذ كانون الثاني/يناير 2020.<div class="flourish-embed flourish-chart" data-src="visualisation/8574353" style="padding: 0 !important;"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -838,7 +838,7 @@ var config = {
             hidden: false,
             title: 'نظرة مقارنة',
             image: '',
-            description: 'يمكن تفسير هذه الزيادة بانخفاض قيمة الريال في مناطق الحكومة.<div class="flourish-embed flourish-chart" data-src="visualisation/7978910" style="padding: 0 !important;"></div>',
+            description: 'يمكن تفسير هذه الزيادة بانخفاض قيمة الريال في مناطق الحكومة.<div class="flourish-embed flourish-chart" data-src="visualisation/8574372" style="padding: 0 !important;"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,
@@ -861,7 +861,7 @@ var config = {
             hidden: false,
             title: 'نظرة مقارنة',
             image: '',
-            description: 'كما ارتفعت أسعار الوقود أيضاً في مناطق الحوثيين والمناطق الأخرى على حد سواء. ويعود هذا الارتفاع في الأسعار جزئياً إلى حصار الوقود الذي فرضته الحكومة والسعودية على الحديدة منذ كانون الثاني/يناير 2021 وإلى ارتفاع الأسعار في الأسواق العالمية. كما تسبب فيه انخفاض قيمة الريال في المناطق التي لا يسيطر عليها الحوثيون.<div class="flourish-embed flourish-chart" data-src="visualisation/7979000" style="padding: 0 !important;"></div>',
+            description: 'كما ارتفعت أسعار الوقود أيضاً في مناطق الحوثيين والمناطق الأخرى على حد سواء. ويعود هذا الارتفاع في الأسعار جزئياً إلى حصار الوقود الذي فرضته الحكومة والسعودية على الحديدة منذ كانون الثاني/يناير 2021 وإلى ارتفاع الأسعار في الأسواق العالمية. كما تسبب فيه انخفاض قيمة الريال في المناطق التي لا يسيطر عليها الحوثيون.<div class="flourish-embed flourish-chart" data-src="visualisation/8574394" style="padding: 0 !important;"></div>',
             location: {
               center: [44.703737, 15.172698],
               zoom: 5.5,

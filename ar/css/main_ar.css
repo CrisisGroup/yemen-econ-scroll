@@ -78,11 +78,13 @@
         padding-top: 2vh;
         padding-bottom: 2vh;
         padding-left: 2vh;
-        text-align: left;
         line-height: 25px;
         font-size: 13px;
         position: relative;
         z-index: 5;
+    }
+    #footer p {
+      text-align: left !important;
     }
     #features {
         padding-top: 20vh;
