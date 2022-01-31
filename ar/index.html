@@ -335,6 +335,12 @@ map.on("load", function() {
 						'tileSize': 512,
 						'maxzoom': 14
 				});
+
+				mapboxgl.setRTLTextPlugin(
+'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js',
+null,
+true // Lazy load the plugin
+);
 				// add the DEM source as a terrain layer with exaggerated height
 				map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
 
