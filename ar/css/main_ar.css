@@ -26,6 +26,7 @@
         z-index: 5;
         background: #003E51;
         color: #E87722;
+        text-align: right;
         /* padding: 1vh 2vw; */
     }
     #header img {
@@ -34,7 +35,7 @@
     #header h1, #header h2, #header p {
         margin: 0;
         padding: 2vh 2vw;
-        text-align: left;
+        text-align: right;
         font-family: 'Libre Franklin', sans-serif;
     }
     h2.liftout {
@@ -52,7 +53,6 @@
     h3 {
       font-family: 'Libre Franklin', sans-serif;
       font-size: 21px;
-      letter-spacing: 1px;
       color: #e4e4e4;
       text-align: right;
     }
