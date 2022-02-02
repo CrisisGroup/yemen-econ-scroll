@@ -12,6 +12,10 @@
     a, a:hover, a:visited {
         color: #0071bc;
     }
+    a#translink {
+      color: #E87722;
+      font-weight: bold;
+    }
     #map {
         top:0;
         height: 100vh;

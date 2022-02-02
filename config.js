@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Yemen',
             image: '',
-            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea and Gulf of Aden.<br /><br />[<a href="ar/index.html" target="_blank">This project is also available in العربية</a>]',
+            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea and Gulf of Aden.<br /><br />[<a id="translink" href="ar/index.html" target="_blank">This explainer is also available in العربية</a>]',
             location: {
               center: [43.592, 15.871],
               zoom: 4,

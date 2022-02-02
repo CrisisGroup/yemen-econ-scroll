@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'اليمن',
             image: '',
-            description: 'اليمن دولة يبلغ عدد سكانها نحو 30 مليون نسمة. تقع على الزاوية الجنوبية الغربية لشبه الجزيرة العربية، وتحدها المملكة العربية السعودية، وعمان، وخطوط الشحن البحري في البحر الأحمر وخليج عدن&#1748; <br /><br /><a href="https://yemenconflict.crisisgroup.org" target="_blank">[This project is also available in English.]</a>',
+            description: 'اليمن دولة يبلغ عدد سكانها نحو 30 مليون نسمة. تقع على الزاوية الجنوبية الغربية لشبه الجزيرة العربية، وتحدها المملكة العربية السعودية، وعمان، وخطوط الشحن البحري في البحر الأحمر وخليج عدن&#1748; <br /><br /><a id="translink" href="https://yemenconflict.crisisgroup.org" target="_blank">[This project is also available in English.]</a>',
             location: {
               center: [43.592, 15.871],
               zoom: 4,
