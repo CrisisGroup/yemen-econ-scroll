@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: true,
-    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>Yemen’s Economic Conflict</h1>',
+    title: '<a href="https://www.crisisgroup.org" target="_blank"><img src="images/icg-oj.png" width="60" height="60" /></a><br /><h1>How Yemen’s War Economy Undermines Peace Efforts</h1>',
     subtitle: '',
     byline: '',
     footer: '<h4>Credits</h4><strong>Lead Contributor</strong>: Peter Salisbury<br /><strong>Visualizations</strong>: Paul Franz<br /><strong>Data Analysis: </strong>Kevin Mazur<br /><strong>Support</strong>: Veena Ali-Khan<br /><br /><h4>Data Sources</h4> <div class="data-sources"><a href="https://www.openstreetmap.org" target="_blank">OpenStreetMap</a><br /><a href="https://www.mapbox.com" target="_blank">Mapbox</a> and <a href="https://www.mapbox.com/community" target="_blank">Mapbox Community Team</a><br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Yemen',
             image: '',
-            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea and Gulf of Aden.',
+            description: 'Yemen is a country of about 30 million people. It occupies the southwestern tip of the Arabian Peninsula and borders Saudi Arabia, Oman, and the shipping lanes of the Red Sea and Gulf of Aden.<br /><br />[<a href="ar/index.html" target="_blank">This project is also available in العربية</a>]',
             location: {
               center: [43.592, 15.871],
               zoom: 4,
