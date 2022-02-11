@@ -200,7 +200,7 @@ var config = {
             hidden: false,
             title: '2020',
             image: '',
-            description: 'By 2020, the country had been split into roughly five zones of political and military control. The Huthis control north west Yemen, the country’s most populous area, and in particular Sanaa, its historical political and commercial centre.',
+            description: 'By 2020, the country had been split into roughly five zones of political and military control. The fighting has cut off roads and divided control of Yemen’s ports and airports, many of which have been shuttered.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -271,7 +271,7 @@ var config = {
             hidden: false,
             title: 'The Present Day',
             image: '',
-            description: 'The fighting has cut off roads and divided control of Yemen’s ports and airports, many of which have been shuttered.',
+            description: 'Territorial control is only one part of the story of the struggle for control of Yemen. Although the government nominally controls more than 70% of Yemen’s landmass, the best available population data shows more than 70% of Yemenis live in areas controlled by the Huthis.',
             location: {
               center: [45.731866, 15.500622],
               zoom: 5.30,
@@ -288,34 +288,14 @@ var config = {
                   opacity: 0
               },
               {
-                  layer: '2021-control',
+                  layer: 'cartogram-yemen',
                   duration: 3000,
-                  opacity: .8
-              },
-              {
-                  layer: '2021-control-roads',
-                  duration: 3000,
-                  opacity: .9
-              },
-              {
-                  layer: '2021-points',
-                  duration: 3000,
-                  opacity: .9
+                  opacity: .65
               }
             ],
             onChapterExit: [
               {
-                  layer: '2021-control',
-                  duration: 3000,
-                  opacity: 0
-              },
-              {
-                  layer: '2021-control-roads',
-                  duration: 3000,
-                  opacity: 0
-              },
-              {
-                  layer: '2021-points',
+                  layer: 'cartogram-yemen',
                   duration: 3000,
                   opacity: 0
               }

@@ -377,10 +377,6 @@ map.on("load", function() {
 									} else
 											 $("#Chapter01CDlegend").hide("fast");
 
-											 if (chapterid == "01E") {
-														$("#Chapter01Elegend").show("slow");
-											 } else
-														$("#Chapter01Elegend").hide("fast");
 
 														if (chapterid == "04B") {
 		 														$("#Chapter04Blegend").show("slow");
@@ -392,7 +388,7 @@ map.on("load", function() {
 		 											 } else
 		 														$("#Chapter04Clegend").hide("fast");
 
-																if (chapterid == "04E") {
+																if ((chapterid == "01E") || (chapterid == "04E")) {
 																		$("#Chapter04Elegend").show("slow");
 															 } else
 																		$("#Chapter04Elegend").hide("fast");
